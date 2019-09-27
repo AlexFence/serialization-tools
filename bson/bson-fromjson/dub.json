@@ -1,0 +1,15 @@
+{
+	"authors": [
+		"Alex Fence"
+	],
+	"copyright": "Copyright © 2019, Alex Fence",
+	"description": "converts json to bson",
+    "dependencies": {
+        "vibe-d:data": "~>0.8.2"
+    },
+    "license": "GPL-3",
+	"name": "bson-fromjson",
+    "targetType": "executable",
+    "targetPath": "../bin"
+}
+
