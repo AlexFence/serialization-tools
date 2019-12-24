@@ -1,4 +1,6 @@
-.Phony: default clean bin bson
+PREFIX=/usr/local
+
+.Phony: default clean install json bson
 
 default: json bson
 
@@ -19,3 +21,5 @@ clean:
 bin:
 	mkdir -p bin
 
+install: bin
+	cp -v ./bin/* $(PREFIX)/bin
